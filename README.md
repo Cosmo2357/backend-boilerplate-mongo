@@ -30,4 +30,5 @@ $ docker-compose up -d
 # http://localhost:8080/api/users
 ```
 
+<img width="1362" alt="スクリーンショット 2024-07-14 22 40 38" src="https://github.com/user-attachments/assets/fdfda05a-cfd3-42f1-9f95-72968c366167">
 
