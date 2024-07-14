@@ -4,6 +4,7 @@ import { IUser } from '../models/user';
 
 class UserController {
   public async getAllUsers(req: Request, res: Response): Promise<void> {
+    console.log('getAllUsers');
     try {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const users = await userService.getAllUsers();
@@ -25,7 +26,12 @@ class UserController {
 
   public async getUserById(req: Request, res: Response): Promise<void> {
     try {
-      const user = await userService.getUserById(req.params.id);
+      //const user = await userService.getUserById(req.params.id);
+      const user = {
+        name: 'John Doe',
+        age: 33,
+        city: 'New York',
+      };
       if (user) {
         res.json(user);
       } else {
