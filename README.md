@@ -1,6 +1,6 @@
-# [WIP] Express Backend Boilerplate
+# 🏯 [WIP] Express Backend Boilerplate for a personal project🗻
 
-Hi! Thank you for checking this repository. 
+😊🖐️ Hi! Thank you for checking this repository. 
 
 -  This is a basic backend boilerplate for my projects I started to work on last week.  
 -  It is a simple REST API with mongoDB  
