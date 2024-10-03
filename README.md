@@ -17,7 +17,7 @@ Node: v20.14.0
 
 ## Scripts
 ```bash
-$ npm run install
+$ npm install
 
 $ npm run dev
 
